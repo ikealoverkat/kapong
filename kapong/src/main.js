@@ -15,6 +15,8 @@ let music = play("music", {
     volume: 0.3,
 })
 
+loadRoot(".");
+
 let sfxEnabled = true;
 
 loadSprite("bgMenu", "/sprites/bg-overlay.png"); //bg overlay
