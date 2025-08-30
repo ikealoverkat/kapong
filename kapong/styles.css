@@ -3,15 +3,14 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-image: url("/public/sprites/bg-body.jpg"); 
+    background-image: url("/sprites/bg-body.jpg"); 
     background-size: cover;
     overflow: hidden;
 }
 
 canvas {
-    background-image: url("/public/sprites/topbar.png");
+    background-image: url("/sprites/topbar.png");
     margin-top: 12vh;
-    padding-top: 5vh;
     border-radius: 2vh;
     box-shadow: 5px 5px 15px #030659a4;
 }
