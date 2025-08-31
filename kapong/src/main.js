@@ -15,8 +15,6 @@ let music = play("music", {
     volume: 0.3,
 })
 
-loadRoot(".");
-
 let sfxEnabled = true;
 
 loadSprite("bgMenu", "/sprites/bg-overlay.png"); //bg overlay
@@ -391,7 +389,7 @@ scene("main", () => {
             size: 128,
         }),
         color(0,0,0),
-        pos(184, 179),
+        pos(124, 179),
         {value: redScore}
     ])
 
@@ -400,7 +398,7 @@ scene("main", () => {
             font: "happy",
             size: 128,
         }),
-        pos(180, 175),
+        pos(120, 175),
         {value: redScore}
     ])
 
@@ -631,6 +629,7 @@ scene("settings", () => {
 
     add ([
         sprite("bg"),
+        z(-10),
     ])
 
     const musicBTN = add ([
@@ -646,6 +645,7 @@ scene("settings", () => {
         pos(320, 200),
         "musicON",
         anchor("center"),
+        outline(4, RED),
     ])
 
 
@@ -749,9 +749,6 @@ scene("settings", () => {
         area(),
     ]) 
 
-    onClick ("musicOFF", () => {
-        music.volume = (0);
-    })
 
     const playBTN = add([
         sprite("play"),
