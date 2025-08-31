@@ -17,36 +17,36 @@ let music = play("music", {
 
 let sfxEnabled = true;
 
-loadSprite("bgMenu", "/sprites/bg-overlay.png"); //bg overlay
-loadSprite("bg", "/sprites/bg-2.png"); //bg overlay
-loadSprite("mark", "/sprites/mark-o.png"); 
-loadSprite("bean", "/sprites/bean.png");
-loadSprite("pinkbean", "/sprites/been-o.png");
-loadSprite("purplebean", "/sprites/beant-o.png");
-loadSprite("kat", "/sprites/kat.png"); //ball load
-loadSprite("paddle-red", "/sprites/paddle-red.png") //red paddle load
-loadSprite("paddle-blue", "/sprites/paddle-blue.png") //red paddle load
-loadSprite("play", "/sprites/play-o.png"); //play btn
-loadSprite("pause", "/sprites/pause-o.png"); //pause btn
-loadSprite("menu", "/sprites/menu-o.png"); //menu btn
-loadSprite("changeBall", "/sprites/assetbrew-o.png"); //changeball btn
-loadSprite("refresh", "/sprites/refresh.png"); //refresh btn
-loadSprite("soundBTN", "/sprites/sound-o.png");
-loadSprite("musicBTN", "/sprites/music-o.png");
-loadSprite("settings", "/sprites/config-o.png");
+loadSprite("bgMenu", "sprites/bg-overlay.png"); //bg overlay
+loadSprite("bg", "sprites/bg-2.png"); //bg overlay
+loadSprite("mark", "sprites/mark-o.png"); 
+loadSprite("bean", "sprites/bean.png");
+loadSprite("pinkbean", "sprites/been-o.png");
+loadSprite("purplebean", "sprites/beant-o.png");
+loadSprite("kat", "sprites/kat.png"); //ball load
+loadSprite("paddle-red", "sprites/paddle-red.png") //red paddle load
+loadSprite("paddle-blue", "sprites/paddle-blue.png") //red paddle load
+loadSprite("play", "sprites/play-o.png"); //play btn
+loadSprite("pause", "sprites/pause-o.png"); //pause btn
+loadSprite("menu", "sprites/menu-o.png"); //menu btn
+loadSprite("changeBall", "sprites/assetbrew-o.png"); //changeball btn
+loadSprite("refresh", "sprites/refresh.png"); //refresh btn
+loadSprite("soundBTN", "sprites/sound-o.png");
+loadSprite("musicBTN", "sprites/music-o.png");
+loadSprite("settings", "sprites/config-o.png");
 loadSprite("blue-on", "sprites/btn-on.png");
 loadSprite("red-on", "sprites/btn-on-red.png");
 loadSprite("blue-off", "sprites/btn-off.png");
 loadSprite("red-off", "sprites/btn-off-red.png");
 
-loadMusic("music", "/audio/music.mp3"); //music
-loadSound("bounce", "/audio/bounce.mp3");
-loadSound("start", "/audio/start.mp3");
-loadSound("unpause", "/audio/unpause.mp3");
-loadSound("boing", "/audio/boing.mp3");
-loadSound("ding", "/audio/ding.mp3");
-loadSound("pauseSound", "/audio/pauseSound.mp3");
-loadSound("pauseSound", "/audio/pauseSound.mp3");
+loadMusic("music", "audio/music.mp3"); //music
+loadSound("bounce", "audio/bounce.mp3");
+loadSound("start", "audio/start.mp3");
+loadSound("unpause", "audio/unpause.mp3");
+loadSound("boing", "audio/boing.mp3");
+loadSound("ding", "audio/ding.mp3");
+loadSound("pauseSound", "audio/pauseSound.mp3");
+loadSound("pauseSound", "audio/pauseSound.mp3");
 
 loadCrew("font", "happy");
 
