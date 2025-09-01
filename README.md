@@ -14,3 +14,5 @@ i used VSCode, vite and kaplay to make this project! it's deployed on itch.io.
 - i forgot to run npm run build for some reason and zipped + published my source code... 💀 "why doesn't my game appear in itch.io?!" well... yeah so that was bad
 - i forgot to add the base of ./ for my image files in my config so my images wouldn't appear
 - i fixed all the issues and basically just learnt a bunch of stuff about kaplay so yay
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
